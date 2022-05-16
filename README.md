@@ -37,3 +37,17 @@ FrontEnd trabajaremos con React Hooks, Redux y Material Design.
 * **Prettier - Code formatter** <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>
 * **Material Icon them** <https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme>
 * **Dracula Official Theme** <https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula>
+
+### Entity Framework Core para persistencia y creacion de transacciones en SQL Server
+
+Entity Framework permite traducir las sentencias SQL (modelo relacional) para llevarlo a un modelo de objetos.
+
+Para que Curso (Curso.cs) pueda convertirse en entidad, debe estar dentro de un DbSet(representa una tabla).
+
+DbContext representa a la base de datos con la que vamos a trabajar.
+
+protegido : Solamente las clases que hereden estos metodos y propiedades tendran acceso.
+
+Override:sobre escribiendo un metodo que previamente fue declarado por una clase padre(DbContext para este caso).
+
+OnConfiguring crea la instancia hacia el servidor SQL SERVER.
